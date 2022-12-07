@@ -44,6 +44,7 @@ public class TestRestController {
     @RequestMapping(value = "/user",method = RequestMethod.PUT)
     public String updateUser(){
         System.out.println("修改用户信息");
+        System.out.println("new");
         return "success";
     }
 
